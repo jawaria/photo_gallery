@@ -1,0 +1,37 @@
+/* site colors:
+ * #1a446c - blue grey
+ * #689dc1 - light blue
+ * #d4e6f4 - very light blue
+ * #eee4b9 - light tan
+ * #8d0d19 - burgundy
+ */
+html{ height: 100%; width: 100%;  }
+body{ height: 100%; width: 100%; margin: 0; padding: 0;
+border: 0;  
+background: #ffffff;
+font : 13px/15px verdana, arial, helvetica,sans-serif;}
+img{border: none;}
+table, tr, td, tr{
+	border-collapse: collapse;
+	vertical-align: top;
+	text-align: left;
+	font : 13px/15px verdana, arial, helvetica,sans-serif;}
+	a{color: #8d0d19;}
+	
+	#header {
+	height: 70px;
+	text-align: left;
+	background: #1a446c;
+	color: #d4e6f4;
+}
+#header h1{ padding: 1em; margin: 0;}
+#main{min-height: 600px; width: 100%; background: #EEE4b9;
+padding: 2em;}
+
+#footer{ height: 2em; padding: 1em; text-align: center;
+background: #1a446c; color: #d4e6f4;}
+
+table.bordered tr th, table.bordered tr td{ border: 1px solid #000000;}
+
+
+
